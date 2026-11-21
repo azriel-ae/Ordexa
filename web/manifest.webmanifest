@@ -1,0 +1,70 @@
+{
+  "name": "Ordexa — Manajer Tugas Pribadi",
+  "short_name": "Ordexa",
+  "description": "Manajer tugas pribadi berbasis inti Zig dengan dasbor bersih. Bekerja offline.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "lang": "id",
+  "dir": "ltr",
+  "background_color": "#f5f3ee",
+  "theme_color": "#f5f3ee",
+  "launch_handler": { "client_mode": "focus-existing" },
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah tugas",
+      "short_name": "Tambah tugas",
+      "description": "Buka formulir tugas baru",
+      "url": "/?aksi=tugas-baru"
+    },
+    {
+      "name": "Hari ini",
+      "short_name": "Hari ini",
+      "description": "Lihat tugas yang jatuh tempo hari ini",
+      "url": "/?tampilan=today"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/lebar-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard Ordexa di desktop: distribusi prioritas, statistik, dan daftar tugas"
+    },
+    {
+      "src": "/screenshots/sempit-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Ordexa di ponsel: distribusi prioritas di atas, navigasi kaca di bawah"
+    }
+  ]
+}

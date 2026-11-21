@@ -1,0 +1,14 @@
+{
+  "name": "ordexa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Manajer tugas pribadi berbasis inti Zig dengan dasbor web yang bersih.",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "dev": "bash scripts/dev.sh",
+    "test": "zig test src/core.zig && node tests/wasm-smoke.mjs public/ordexa-core.wasm"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

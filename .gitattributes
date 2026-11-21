@@ -1,0 +1,15 @@
+# Aturan linguist GitHub: statistik bahasa mencerminkan kode sumber,
+# bukan artefak build, berkas biner, atau dokumentasi.
+
+# public/ adalah keluaran scripts/build.sh (duplikat JS/HTML/CSS hasil salin) —
+# tandai generated agar tidak dihitung ganda di diagram bahasa GitHub.
+public/** linguist-generated=true
+
+# Berkas biner tidak perlu dideteksi teksnya.
+*.wasm binary
+web/icons/*.png binary
+web/screenshots/*.png binary
+
+# Dokumentasi bukan kode — keluarkan dari statistik bahasa.
+README.md linguist-documentation=true
+docs/** linguist-documentation=true

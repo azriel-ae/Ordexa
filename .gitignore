@@ -1,0 +1,7 @@
+# Hasil build — tidak perlu masuk repositori (Vercel menjalankan scripts/build.sh sendiri).
+public/
+.zig-cache/
+zig-out/
+node_modules/
+*.wasm
+.DS_Store
