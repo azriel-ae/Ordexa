@@ -82,6 +82,3 @@ Tugas disimpan di `localStorage` peramban dengan kunci `ordexa.tasks.v1`. Tidak 
 - Menghapus data situs/penyimpanan peramban menghapus tugas yang tersimpan setempat. Gunakan **Ekspor cadangan** secara rutin dan simpan berkas JSON unduhan di tempat aman. Tombol Impor dapat memulihkan cadangan; impor menggantikan daftar tugas saat ini setelah konfirmasi.
 - Deployment Vercel bersifat statis; tidak menyediakan basis data awan bersama.
 
-## Model prioritas
-
-Inti Zig mengembalikan skor 0 sampai 100. Kesulitan menyumbang skor dasar (Ringan 18, Sedang 42, Berat 66); sisa waktu menyumbang skor urgensi. Tugas yang melewati tenggat menerima kontribusi urgensi maksimum. Inti Zig juga mengurutkan tugas menurut skor yang ia hitung; antarmuka hanya merender urutan itu.
