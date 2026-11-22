@@ -68,5 +68,3 @@ Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. A
 3. Pakai pengaturan proyek berikut:
    - Framework Preset: **Other**
    - Build Command: `bash scripts/build.sh`
-   - Output Directory: `public`
-  
