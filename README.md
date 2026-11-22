@@ -2,10 +2,6 @@
 
 Manajer tugas pribadi dengan dasbor yang bersih dan terang. Aplikasi ini dirancang mengelilingi inti logika Zig yang dikompilasi menjadi WebAssembly. Lapisan peramban hanya menangani penyajian, interaksi form, dan penyimpanan setempat di peramban. Zig adalah bahasa terbesar dalam basis kode ini (lihat statistik bahasa GitHub).
 
-## Sistem desain
-
-Antarmuka mengikuti arah **Liquid Glass + Editorial Productivity**: terang, hangat, minimal, dengan kaca transparan yang dipakai secara terkendali (navigasi, tombol melayang, menu, panel penting) — kartu konten tetap pekat dan mudah dibaca. Seluruh token terpusat di `:root` pada `web/styles.css`:
-
 | Token | Nilai | Peran |
 | --- | --- | --- |
 | Warm Ivory | `#F5F3EE` | latar utama aplikasi |
