@@ -73,12 +73,3 @@ Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. A
    - Install Command: biarkan kosong/bawaan (tidak ada dependensi npm)
 Repositori juga memuat `vercel.json` dengan perintah build, direktori keluaran, serta header MIME/tembolok WebAssembly. Vercel menjalankan unit test Zig dan smoke test ABI WASM sebelum menerbitkan. Tidak ada variabel lingkungan yang dibutuhkan.
 
-## Data dan privasi
-
-Tugas disimpan di `localStorage` peramban dengan kunci `ordexa.tasks.v1`. Tidak ada data tugas yang dikirim ke server. Service worker hanya menembolok app-shell statis (HTML, CSS, JS, WebAssembly, ikon) untuk pemakaian offline; ia tidak pernah menyentuh data tugas. Artinya:
-
-- Tugas tetap berada di profil peramban yang sama setelah situs ditutup dan dibuka kembali.
-- Tugas tidak otomatis tersinkron antar perangkat atau peramban.
-- Menghapus data situs/penyimpanan peramban menghapus tugas yang tersimpan setempat. Gunakan **Ekspor cadangan** secara rutin dan simpan berkas JSON unduhan di tempat aman. Tombol Impor dapat memulihkan cadangan; impor menggantikan daftar tugas saat ini setelah konfirmasi.
-- Deployment Vercel bersifat statis; tidak menyediakan basis data awan bersama.
-
