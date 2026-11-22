@@ -69,4 +69,4 @@ Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. A
    - Framework Preset: **Other**
    - Build Command: `bash scripts/build.sh`
    - Output Directory: `public`
-   - Install Command: biarkan kosong/bawaan (tidak ada dependensi npm)
+  
