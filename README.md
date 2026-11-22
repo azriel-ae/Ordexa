@@ -2,17 +2,6 @@
 
 Manajer tugas pribadi dengan dasbor yang bersih dan terang. Aplikasi ini dirancang mengelilingi inti logika Zig yang dikompilasi menjadi WebAssembly. Lapisan peramban hanya menangani penyajian, interaksi form, dan penyimpanan setempat di peramban. Zig adalah bahasa terbesar dalam basis kode ini (lihat statistik bahasa GitHub).
 
-| Token | Nilai | Peran |
-| --- | --- | --- |
-| Warm Ivory | `#F5F3EE` | latar utama aplikasi |
-| Deep Charcoal | `#292D2D` | teks dan elemen penting |
-| Muted Teal | `#668985` | aksen utama: navigasi aktif, keadaan terpilih, progres positif |
-| Soft Amber | `#C49359` | tenggat mepet dan perhatian sedang |
-| Stone Gray | `#D9D7CF` | garis dan pembatas |
-| Pure White | `#FFFFFF` | permukaan kaca dan kartu |
-
-Merah disiapkan khusus untuk keadaan terlambat, galat, dan destruktif. Seluruh grafik memakai sistem semantik yang sama. Tipografi memakai **Manrope** dengan skala konsisten. Animasi menghormati `prefers-reduced-motion`, dan peramban tanpa `backdrop-filter` menerima latar pekat sebagai fallback.
-
 ## Fitur
 
 - Buat, sunting, tandai selesai, dan hapus tugas
