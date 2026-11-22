@@ -62,7 +62,6 @@ Untuk membangun tanpa menjalankan server pratinjau:
 
 Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. Alur kerja GitHub Actions juga menjalankan build yang sama pada push dan pull request. Untuk menjalankannya terpisah:
 
-## Deploy ke Vercel
 
 1. Dorong folder proyek ke repositori GitHub.
 2. Di Vercel, pilih **Add New → Project** lalu impor repositori tersebut.
