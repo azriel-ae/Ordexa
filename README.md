@@ -60,4 +60,4 @@ Untuk membangun tanpa menjalankan server pratinjau:
 ./scripts/build.sh
 ```
 
-Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly.
+Skrip build otomatis menjalankan unit test Zig 
