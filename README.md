@@ -71,4 +71,4 @@ Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. A
    - Build Command: `bash scripts/build.sh`
    - Output Directory: `public`
    - Install Command: biarkan kosong/bawaan (tidak ada dependensi npm)
-Repositori juga memuat `vercel.json` dengan perintah build, direktori keluaran, serta header MIME/tembolok WebAssembly. Vercel menjalankan unit test Zig dan smoke test ABI WASM sebelum menerbitkan. Tidak ada variabel lingkungan yang dibutuhkan
+Repositori juga memuat `vercel.json` dengan perintah build, direktori keluaran, serta header MIME/tembolok WebAssembly. Vercel menjalankan unit test Zig dan smoke test ABI WASM sebelum menerbitkan
