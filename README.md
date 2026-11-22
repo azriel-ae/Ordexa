@@ -85,6 +85,3 @@ Tugas disimpan di `localStorage` peramban dengan kunci `ordexa.tasks.v1`. Tidak 
 ## Model prioritas
 
 Inti Zig mengembalikan skor 0 sampai 100. Kesulitan menyumbang skor dasar (Ringan 18, Sedang 42, Berat 66); sisa waktu menyumbang skor urgensi. Tugas yang melewati tenggat menerima kontribusi urgensi maksimum. Inti Zig juga mengurutkan tugas menurut skor yang ia hitung; antarmuka hanya merender urutan itu.
-
-Ini alat bantu perencanaan, bukan penilaian otomatis atas upaya nyata yang dibutuhkan. Anda tetap bebas memilih tingkat kesulitan sendiri.
-
