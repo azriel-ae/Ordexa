@@ -44,12 +44,6 @@ git push
 
 Setelah itu diagram bahasa akan menampilkan Zig sebagai bahasa dominan (sekitar separuh basis kode; sisanya CSS antarmuka, lapisan JS tipis, dan HTML).
 
-## Persyaratan
-
-- Linux x86_64 atau aarch64
-- Zig 0.17.1 (skrip build mengunduhnya ke direktori sementara bila Zig belum terpasang)
-- Node.js 18 atau lebih baru, `curl`, `tar`, dan Python 3 untuk server pratinjau setempat
-
 ## Jalankan setempat
 
 ```bash
