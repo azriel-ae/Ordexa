@@ -51,7 +51,6 @@ chmod +x scripts/*.sh
 ./scripts/dev.sh
 ```
 
-Buka <http://127.0.0.1:4173>.
 
 Jalankan pertama mengunduh arsip Zig 0.17.1 resmi bila `zig` belum ada di PATH, menjalankan unit test Zig, mengompilasi `src/core.zig` menjadi `public/ordexa-core.wasm`, memverifikasi ekspor WebAssembly dengan Node.js, lalu menyalin aset web ke `public/`. Anda bisa mengarahkan build ke kompiler yang telah terpasang dengan `ZIG_BIN=/path/ke/zig bash scripts/build.sh`.
 
