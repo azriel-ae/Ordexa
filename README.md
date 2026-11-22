@@ -65,4 +65,3 @@ Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. A
 
 1. Dorong folder proyek ke repositori GitHub.
 2. Di Vercel, pilih **Add New → Project** lalu impor repositori tersebut.
-3. Pakai pengaturan proyek berikut:
