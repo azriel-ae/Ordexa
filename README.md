@@ -60,7 +60,4 @@ Untuk membangun tanpa menjalankan server pratinjau:
 ./scripts/build.sh
 ```
 
-Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. Alur kerja GitHub Actions juga menjalankan build yang sama pada push dan pull request. Untuk menjalankannya terpisah:
-
-
-1. Dorong folder proyek ke repositori GitHub.
+Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. Alur kerja GitHub Actions juga menjalankan build yang sama pada push dan pull request. Untuk menjalankannya terpisah
