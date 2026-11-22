@@ -62,11 +62,6 @@ Untuk membangun tanpa menjalankan server pratinjau:
 
 Skrip build otomatis menjalankan unit test Zig dan smoke test ABI WebAssembly. Alur kerja GitHub Actions juga menjalankan build yang sama pada push dan pull request. Untuk menjalankannya terpisah:
 
-```bash
-zig test src/core.zig
-node tests/wasm-smoke.mjs public/ordexa-core.wasm
-```
-
 ## Deploy ke Vercel
 
 1. Dorong folder proyek ke repositori GitHub.
@@ -76,8 +71,6 @@ node tests/wasm-smoke.mjs public/ordexa-core.wasm
    - Build Command: `bash scripts/build.sh`
    - Output Directory: `public`
    - Install Command: biarkan kosong/bawaan (tidak ada dependensi npm)
-4. Deploy. Skrip build mengunduh Zig 0.17.1 di lingkungan build, mengompilasi modul WebAssembly, dan menyalin situs statis ke `public/`.
-
 Repositori juga memuat `vercel.json` dengan perintah build, direktori keluaran, serta header MIME/tembolok WebAssembly. Vercel menjalankan unit test Zig dan smoke test ABI WASM sebelum menerbitkan. Tidak ada variabel lingkungan yang dibutuhkan.
 
 ## Data dan privasi
