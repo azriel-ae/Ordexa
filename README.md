@@ -10,12 +10,10 @@ Manajer tugas pribadi dengan dasbor yang bersih dan terang. Aplikasi ini diranca
 - Skor prioritas dihitung oleh inti Zig WebAssembly
 - Pencarian, penyaringan, dan pengurutan
 - Ekspor dan pemulihan cadangan JSON (di tampilan Pengaturan)
-- Tata letak responsif untuk desktop, tablet, dan ponsel (diuji tanpa luapan horizontal pada 375–1440px)
 - Tanpa basis data, akun, atau API eksternal
-- PWA yang dapat dipasang: bekerja offline dengan service worker dan tembolok app-shell, plus navigasi bawah liquid-glass dengan indikator aktif yang meluncur mulus di ponsel
+- PWA yang dapat dipasang: bekerja offline dengan service worker dan tembolok app-shell
 - Seluruh teks antarmuka berbahasa Indonesia dan hidup di dalam tabel string inti Zig
-- Label tanggal, jam, dan tenggat ("Hari ini, 14.00", "3 hari lagi") diformat inti Zig — tanpa `Intl` peramban
-
+- 
 ## Tumpuan teknologi
 
 - Zig 0.17.1: konversi tenggat, validasi, skor prioritas dan pitanya, klasifikasi urgensi, perhitungan penyelesaian, penyaringan tampilan (semua/hari ini/akan datang/selesai/aktif), pencocokan pencarian tanpa pedulikan besar-kecil, urutan tampil (prioritas/tenggat/dibuat), statistik ruang kerja, klasifikasi tenggat hari ini/besok, agregasi grafik beban kerja, sebaran kategori, penanda gaya baris tugas, kalender sipil proleptik Gregorian, format tanggal/jam/sisa-waktu Indonesia, perakitan HTML baris tugas (termasuk pengamanan HTML), tabel string UI berbahasa Indonesia, serta pemformat pesan ber-angka
