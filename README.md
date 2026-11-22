@@ -58,6 +58,3 @@ Untuk membangun tanpa menjalankan server pratinjau:
 
 ```bash
 ./scripts/build.sh
-```
-
-Skrip build otomatis menjalankan unit test Zig 
