@@ -88,39 +88,3 @@ Inti Zig mengembalikan skor 0 sampai 100. Kesulitan menyumbang skor dasar (Ringa
 
 Ini alat bantu perencanaan, bukan penilaian otomatis atas upaya nyata yang dibutuhkan. Anda tetap bebas memilih tingkat kesulitan sendiri.
 
-## Struktur proyek
-
-```text
-ordexa/
-├── src/
-│   └── core.zig
-├── web/
-│   ├── index.html
-│   ├── styles.css
-│   ├── app.js
-│   ├── favicon.svg
-│   ├── manifest.webmanifest
-│   ├── sw.js
-│   ├── icons/
-│   │   ├── icon-192.png
-│   │   ├── icon-512.png
-│   │   ├── icon-maskable-512.png
-│   │   └── apple-touch-icon.png
-│   └── screenshots/
-│       ├── lebar-desktop.png
-│       └── sempit-mobile.png
-├── scripts/
-│   ├── build.sh
-│   └── dev.sh
-├── tests/
-│   └── wasm-smoke.mjs
-├── .github/
-│   └── workflows/ci.yml
-├── docs/
-│   ├── ARCHITECTURE.md
-│   ├── ARCHITECTURE_AUDIT.md
-│   └── PROGRESS.md
-├── package.json
-├── vercel.json
-└── README.md
-```
