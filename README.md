@@ -153,14 +153,3 @@ ordexa/
 ├── vercel.json
 └── README.md
 ```
-
-## Progressive Web App
-
-Ordexa adalah PWA yang dapat dipasang:
-
-- `web/manifest.webmanifest` mendefinisikan identitas aplikasi, warna tema, tampilan standalone, dan ikon (termasuk varian maskable).
-- `web/sw.js` adalah service worker: ia mengisi tembolok app-shell saat pemasangan, menyajikan aset tembolok lebih dulu, menyegarkan tembolok dari jaringan di latar belakang, dan beralih ke `index.html` tembolok saat offline.
-- Di ponsel, bilah navigasi bawah liquid-glass melayang memberi akses satu jempol ke tampilan utama dan tombol tengah untuk membuat tugas.
-- Cara memasang: gunakan opsi "Tambahkan ke layar utama" / "Pasang aplikasi" pada peramban. Aplikasi lalu terbuka di jendelanya sendiri dan bekerja tanpa koneksi jaringan.
-
-Untuk menerbitkan versi baru, naikkan `CACHE_VERSION` di `web/sw.js` agar klien mengambil aset yang diperbarui.
