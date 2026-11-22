@@ -31,14 +31,6 @@ GitHub Linguist menghitung `public/` (hasil salinan `scripts/build.sh`) sebagai 
 - `.gitignore` mengecualikan `public/`, `.zig-cache/`, `zig-out/` — folder itu adalah keluaran build dan Vercel membangunnya sendiri saat deploy.
 - `.gitattributes` menandai `public/**` sebagai `linguist-generated` (cadangan bila pernah ter-commit), menandai `README.md` sebagai `linguist-documentation`, dan `.wasm`/ikon sebagai biner.
 
-Bila repositori lama masih memuat hasil build, bersihkan sekali lalu dorong ulang:
-
-```bash
-git rm -r --cached public .zig-cache zig-out 2>/dev/null
-git add -A
-git commit -m "Keluarkan artefak build dari pelacakan git"
-git push
-```
 
 Setelah itu diagram bahasa akan menampilkan Zig sebagai bahasa dominan (sekitar separuh basis kode; sisanya CSS antarmuka, lapisan JS tipis, dan HTML).
 
